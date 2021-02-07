@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    background-color: rgb(240, 240, 240);
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper-shadow {
+    -webkit-box-shadow: 0px 0px 22px -4px #000000; 
+    box-shadow: 0px 0px 22px -4px #000000;
+    width: 75%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: .5em;
+}
+
+
+
+.flex-box-container-1 h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    color: green;
+}
+
+.container-1, .container-2, .container-3, .container-4, .container-5 {
+    border-bottom: 1px solid black;
+    border-top: 1px solod black;
+    background-color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-container-1, .flex-box-container-2, .flex-box-rps, .flex-box-pick-color, .flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3 {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2 {
+    background: url("blackjack\ table.jpg") no-repeat center;
+    background-size: 100%;
+    color: #ffffff;
+}
+
+.flex-blackjack-row-1 div {
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    height: 325px;
+}
+
+.flex-blackjack-row-1 img {
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 div {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table, th, td {
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.flex-box-container-1 div {
+    display: flex;
+    align-items: center;
+}
+
+.flex-box-container-2 img {
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
+
+.flex-box-rps img:hover {
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
